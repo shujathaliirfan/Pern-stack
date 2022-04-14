@@ -1,0 +1,45 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+    
+    
+}
+
+.parent .col {
+    height: 451px;
+    border: 1px solid #bfbfbf;
+    padding: 50px;
+}
+
+.parent .col-1{
+    border-right: 1px solid white;
+    background: white
+}
+
+.parent .col-2{  
+    background-image: url('../../../public/Images/background.jpg');
+    background-size: cover;
+}
+
+.w-full {
+    width:100%
+}
+
+.center  {
+    text-align: center;
+}
+
+.forgot {
+    float:right;
+    margin-top: 3px!important;
+}
